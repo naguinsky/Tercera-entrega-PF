@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Rubik+Moonrocks&display=swap");
+.btn-p, .btn-p-mod {
+  background-color: #6CCCc9;
+  color: #F9F5F5;
+}
+.btn-p-mod {
+  border-radius: 20px;
+}
+.btn-p-mod:hover {
+  cursor: move;
+}
+
+#botonera {
+  background-color: rgba(14, 143, 94, 0.5);
+}
+#botonera img {
+  width: 50px;
+}
+#botonera ul li a {
+  color: #1f1f1f;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
+}
+#botonera ul li a:hover {
+  color: #0E8F5E;
+  background-color: rgba(0, 255, 255, 0.1);
+  border-style: dotted;
+  opacity: 1;
+  color: #0E8F5E;
+  font-family: "Rubik Moonrocks", cursive;
+  padding: 10px 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Rubik Moonrocks", cursive;
+  font-weight: 700;
+  color: #6CCCc9;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+body {
+  background-color: bg-light;
+}
+
+.bg-green {
+  background-color: #0E8F5E;
+}
+
+div a {
+  text-decoration: none;
+}
+
+article img {
+  box-shadow: 0 1px 15px yellow;
+}
+
+/*# sourceMappingURL=main.css.map */

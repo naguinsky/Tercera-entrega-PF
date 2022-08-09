@@ -1,0 +1,44 @@
+
+h1,
+h2,
+h3 {
+    font-family: $secondaryFont;
+    font-weight: $textBold;
+    color: $keyColor;
+}
+
+h1 {
+    font-size: $textLg;
+    text-align: center;
+}
+
+h2 {
+    font-size: $textMd;
+}
+
+h3 {
+    font-size: $textSm;
+}
+
+body {
+    background-color: $bg-liviano;
+}
+
+
+.bg-green {
+    background-color: map-get($map:$paleta,$key:'dos');
+}
+
+
+
+div{
+	a{
+		text-decoration:none;
+	}
+}
+
+article{
+	img{
+		box-shadow: 0 1px 15px $colorResaltado;
+	}
+}

@@ -1,0 +1,32 @@
+// extends
+.btn-p {
+    background-color: $keyColor;
+    color: $white;
+}
+.btn-p-mod{
+	@extend .btn-p;
+	border-radius: 20px;
+	&:hover{
+		cursor: move;
+
+}}
+
+//mixins
+@mixin texto(){
+	color:$keyColor2;
+	font-family: $secondaryFont;
+	padding: 10px 20px;
+}
+
+
+//maps
+$paleta:(
+	'uno': #6CCCc9,
+    'dos': #0E8F5E,
+    'tres':#1f1f1f);
+
+
+
+
+
+

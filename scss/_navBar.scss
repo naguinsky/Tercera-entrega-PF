@@ -1,0 +1,28 @@
+//nesting
+
+#botonera{
+	background-color: $mainColor;
+	img{
+		width: 50px;
+	}
+	ul{
+		li{
+			a{
+				color:$keyColorNav;
+				font-family: $fontMain;
+				font-size: $textSm;
+				&:hover{
+					color: $keyColor2;
+					background-color: $bg-real;
+					border-style: dotted;
+					opacity: 1;
+					@include texto();
+				}
+			}
+		}
+	}
+	
+
+}
+
+
